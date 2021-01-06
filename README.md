@@ -1,7 +1,9 @@
 ## Description
 
 Access Control system using a cheap MFRC522 and Espressif's ESP8266 Microcontroller.
-The build environment is based on [PlatformIO](https://platformio.org/)
+The build environment is based on [PlatformIO](https://platformio.org/).
+The MFRC522 reads the id tag and sends it to a flask server for validatin.
+It simulates openning and clossing of a door by turning either a green or red LED on.
 
 
 ## Libraries
