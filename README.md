@@ -1,8 +1,28 @@
 ## Description
 
-TODO
+Access Control system using a cheap MFRC522 and Espressif's ESP8266 Microcontroller.
+The build environment is based on [PlatformIO](https://platformio.org/)
+
+
+## Libraries
+   [RFID library by Miguel Balboa](https://github.com/miguelbalboa/rfid)
+
+## Wiring
+```
+      MFRC522      Esp8266                                 
+ *    RST          D1 (GPIO5)        
+ *    SDA(SS)      D2 (GPIO4)       
+ *    MOSI         D7 (GPIO13)
+ *    MISO         D6 (GPIO12)
+ *    SCK          D5 (GPIO14)
+ *    3.3V         3.3V
+ *    GND          GND
+ *
+```
 
 ## Server
+
+The data validation is done through a http POST request to a flask server running locally
 
 ### Running Server
 
