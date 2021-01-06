@@ -4,8 +4,8 @@
 #include <ESP8266HTTPClient.h>
 #include <ESP8266WiFi.h>
 
-const char *ssid = "C.I.A Surveillance Van";
-const char *password = "1Ax8IXdbX3h5";
+const char *ssid = "wifi_name";
+const char *password = "wifi_pass";
 
 String TOKEN = "5a1c307ce50c97d2f3ed9590775fed6f449eafa84183557087b403fe84c411a1";
 
